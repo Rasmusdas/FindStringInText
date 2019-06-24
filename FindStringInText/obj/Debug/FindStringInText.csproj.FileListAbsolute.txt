@@ -1,0 +1,7 @@
+C:\Users\rasmu\source\repos\FindStringInText\FindStringInText\bin\Debug\FindStringInText.exe.config
+C:\Users\rasmu\source\repos\FindStringInText\FindStringInText\bin\Debug\FindStringInText.exe
+C:\Users\rasmu\source\repos\FindStringInText\FindStringInText\bin\Debug\FindStringInText.pdb
+C:\Users\rasmu\source\repos\FindStringInText\FindStringInText\obj\Debug\FindStringInText.csprojAssemblyReference.cache
+C:\Users\rasmu\source\repos\FindStringInText\FindStringInText\obj\Debug\FindStringInText.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\source\repos\FindStringInText\FindStringInText\obj\Debug\FindStringInText.exe
+C:\Users\rasmu\source\repos\FindStringInText\FindStringInText\obj\Debug\FindStringInText.pdb
