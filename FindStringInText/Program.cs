@@ -31,14 +31,13 @@ namespace FindStringInText
             {
                 Console.WriteLine(s);
             }
+            Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
 
         public static List<string> FindDirectories(string path)
         {
-            List<string> dirs = new List<string>();
-            dirs.Add(path);
-            
+            List<string> dirs = new List<string>();           
             string[] currentDirs = Directory.GetDirectories(path);
             foreach(var v in currentDirs)
             {
@@ -47,6 +46,10 @@ namespace FindStringInText
                     if (Directory.GetDirectories(v).Length > 0)
                     {
                         dirs.AddRange(FindDirectories(v));
+                    }
+                    else
+                    {
+                        dirs.Add(v);
                     }
                 }
                 catch(UnauthorizedAccessException e)
